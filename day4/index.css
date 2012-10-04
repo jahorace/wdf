@@ -1,0 +1,290 @@
+@charset "UTF-8";
+/* CSS Document */
+
+
+
+body, .details {
+  background: #ccc;
+  margin-bottom: 50px;
+}
+
+#grey {color:gray; font-size:18px;}
+
+.hide {
+    position: absolute;
+    display: block;
+    top: -9999em;
+    left: -9999em;
+}
+
+.clear { clear: both; }
+
+.half {
+    float: left;
+    width: 50%;
+}
+
+
+
+.header, .experiences, .details {
+    padding: 20px;    
+}
+
+.header {
+ 	background: #222;
+	color: white;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 140px;
+  position: absolute;
+  clear:both;
+  -webkit-box-shadow: 0 1px 10px rgba(0, 0, 0, 0.6);
+  -moz-box-shadow: 0 1px 10px rgba(0, 0, 0, 0.6);
+  box-shadow: 0 1px 10px rgba(0, 0, 0, 0.6);
+  
+  text-shadow: 1px 1px 0 #000;
+}
+
+.header .name {
+    float: left;
+    width: 1300px;
+    
+}
+
+.header h1 {
+  font-size: 42px;
+  margin-top: 10px;
+  margin-bottom: 5px;
+  color: ccc;
+}
+
+.header h2 {
+  margin-left: 35px;
+    
+  font-weight: normal;
+  font-style: italic;
+  color: #999;
+  margin-top: -20px;
+}
+
+.header dl {
+
+    margin: 0;
+}
+
+.experiences {
+  background: #eee;
+  margin-top: 180px;
+}
+
+.experiences h3 {
+    font-size: 30px;
+    line-height: 36px;
+    margin: 0 -20px 20px -20px;
+    padding: 0 20px 10px 20px;
+    border-bottom: 1px solid #ccc;
+}
+ 
+#sub {
+font-size: 20px;
+}
+
+ul
+{
+
+list-style-type:none;
+margin: 48px 0px 0px 500px;
+padding:0;
+color: ccc;
+}
+
+li
+{
+font-size: 18px;
+display:inline;
+padding:5px;
+
+}
+
+
+
+
+.column1of4, .column2of4, .column3of4, .column4of4 {
+		display: inline-block; 
+		border: 1px solid grey; 
+		background: silver; 
+		padding: 5px; 
+    clear: both; 
+		width: 285px;
+		float: left;
+		margin: 5px;
+	}
+	
+.columnvs {
+		display: inline-block; 
+		border: 1px solid grey; 
+		background: silver; 
+		padding: 5px; 
+    clear: both; 
+		width: 690;
+		float: left;
+		margin: 5px;
+	}
+	
+
+	.side {
+	margin-top: 40px;
+	margin-left: 365px;
+	font-size: 16px;
+	float: left;
+	position: absolute;
+}
+
+	.side2 {
+	margin-top: 320px;
+	margin-left: 365px;
+	font-size: 16px;
+	float: left;
+	position: absolute;
+}
+
+ .side3 {
+	margin-top: 600px;
+	margin-left: 365px;
+	font-size: 16px;
+	float: left;
+	position: absolute;
+	
+}
+
+ .side4 {
+	margin-top: 880px;
+	margin-left: 365px;
+	font-size: 16px;
+	float: left;
+	position: absolute;
+}
+
+	div.column1of4 {
+	width: 690px;
+	height:396px;
+	margin: 20px;
+	border: 1px solid #ccc;
+	padding: 10px;
+	}
+ 
+	div.column1of4:hover {
+	-moz-box-shadow: 0 0 7px rgba(0,0,0,0.5);
+	-webkit-box-shadow: 0 0 7px rgba(0,0,0,0.5);
+	box-shadow: 0 0 7px rgba(0,0,0,0.5);
+	}
+
+
+		div.column2of4 {
+	width: 300px;
+	margin: 20px;
+	border: 1px solid #ccc;
+	padding: 10px;
+	}
+ 
+	div.column2of4:hover {
+	-moz-box-shadow: 0 0 7px rgba(0,0,0,0.5);
+	-webkit-box-shadow: 0 0 7px rgba(0,0,0,0.5);
+	box-shadow: 0 0 7px rgba(0,0,0,0.5);
+	}
+
+
+		div.column3of4 {
+	width: 300px;
+	margin: 20px;
+	border: 1px solid #ccc;
+	padding: 10px;
+	}
+ 
+	div.column3of4:hover {
+	-moz-box-shadow: 0 0 7px rgba(0,0,0,0.5);
+	-webkit-box-shadow: 0 0 7px rgba(0,0,0,0.5);
+	box-shadow: 0 0 7px rgba(0,0,0,0.5);
+	}
+	
+		div.column4of4 {
+	width: 300px;
+	margin: 20px;
+	border: 1px solid #ccc;
+	padding: 10px;
+	}
+ 
+	div.column4of4:hover {
+	-moz-box-shadow: 0 0 7px rgba(0,0,0,0.5);
+	-webkit-box-shadow: 0 0 7px rgba(0,0,0,0.5);
+	box-shadow: 0 0 7px rgba(0,0,0,0.5);
+	}
+	
+	
+.experiences h4 {
+    float: left;
+}
+
+.experiences h5,
+.experiences h6 {
+    float: right;
+}
+
+.experiences h6 {
+    clear: right;
+}
+
+.experiences ul {
+    clear: both;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.skills h3, .education h3 {
+  font-family: Georgia, Serif;
+  font-weight: normal;
+  font-size: 24px;
+}
+
+.skills ul {
+    list-style-type: none;
+    margin: 0 0 10px 0;
+}
+
+.skills ul li {
+    float: left;
+    margin: 0 5px 5px 0;
+    font-size: 90%;
+    background: #b3b3b3;
+    padding: 4px;
+    
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+    border-radius: 3px;
+}
+
+
+.halfl {
+margin-top: 30px ;
+float:left;
+}
+
+.halfr {
+margin-top: 30px ;
+float:right;
+}
+
+.skills h6 {
+    clear: left;
+}
+
+dl dt {
+  color: #555;
+}
+
+dl dd {
+    margin: 0 0 10px 0;
+}
+
+w
