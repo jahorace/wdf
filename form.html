@@ -1,12 +1,22 @@
 <!DOCTYPE html>
-	<html lang="en">
-		<head>
-			<meta charset="utf-8"/>
-			<title>HTML5</title> 
+<html lang="en"><head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+		
+			<meta charset="utf-8">
+			
+				<title>HTML5</title> 
 			
 			<style>
 			.space {
 			margin-top: 10px;
+			}
+			
+			.space2 {
+			margin-top: 5px;
+			}
+			
+			.space3 {
+			margin-top: 15px;
 			}
 			</style>
 			
@@ -14,82 +24,88 @@
 		<body>
 		
 		
-				<h1>Sign-up for a CONTEST!</h1>
+				<h1>Sign-up for a Skateboarding Contest!</h1>
 			 
 			
 			<form>
-      <fieldset>
-       <legend><h2>Enter Now! </h2></legend>
-       <p>
-          <label>Select a contest to enter:</label>            
-          <input type = "radio"
-                 name = "radSize"
-                 id = "sizeSmall"
-                 value = "small"
-                 checked = "checked" />
-          <label for = "sizeSmall">Form</label>
+			
+      		<fieldset>
+       				
+       				<legend><h2>Enter Now! </h2></legend>
+       					
+       			
+          					<p>	
+          						<label></label></p><h3>Select a contest to enter:</h3>   
+          					<p></p>
+          						
+          						<div class="space2">
+          						<input name="“question”" value="“true”" type="radio">Street
+									</div>
+									
+									<div class="space2">
+									<input name="“question”" value="“false”" type="radio">Vert
+									</div>
+									
+									<div class="space2">
+									<input name="“question”" value="“false”" type="radio">Skatepark
+          						</div>
+          				
+         							
+         							
+                           <h3 class="space3"> Enter Email Address: </h3>
+      								
+      								<div class="space2">
+      								<input name="email" required="" placeholder="youremail@email.com" type="text">  
+      								</div>
+      								
+      								
+      								<h3 class="space3"> Enter New Password: </h3>
+      								<div class="space2">
+      								<input name="password" required="" placeholder="Enter a password" type="password">
+      								</div>
+      
+     										
+     									<h3 class="space3"> Any Comments? </h3>
+     									
+										<div class="space2">
+										<textarea name="comments" rows="5" cols="18"></textarea>
+										</div>
+										
+										<h3 class="space3"> Gender: </h3>
+										<div class="space2">
+												<select name="“gender”"> 
+													<option selected="selected">Male</option>
+													<option>Female</option>
+													<option>I do not want to answer.</option>       
+												</select>
+									 	</div>
+			
+			
+			
+           							<label><h3 class="space3"> Enter Now!</h3></label>
+           							<div class="space2">
+            						 	<input value="agree" type="checkbox">
+             								<label for="signup">Sign-up for our news letter!</label>
+             						</div>
           
-          <input type = "radio"
-                 name = "radSize"
-                 id = "sizeMed"
-                 value = "medium" />
-          <label for = "sizeMed">HTML5</label>
- 
-          <input type = "radio"
-                 name = "radSize"
-                 id = "sizeLarge"
-                 value = "large" />
-          <label for = "sizeLarge">CSS3</label>
-        </p>      
+          							<div class="space2">
+           								  <input value="agree" type="checkbox">
+             								<label for="terms">Agreed to our terms.</label>
+             						</div>
         
-        
-        
-         
-    
-      Enter Email Address: <input type="text" name="ﬁrst_name" required placeholder="Enter a valid email address"/>  
-      
-      <br  class="space" />
-      
-      Enter New Password: <input type="password" name="password" required placeholder="Enter a password"/>
-      
-     
+										<div class="space2">
+			 							<input name="send" type="submit">           
+			
+										 <input name="clear" type="reset">
+										 </div>
+			
+								</fieldset>
+			     
+    					</form>
+			
 		
 		
-			<p>
-				<textarea name="comments" rows="5" cols="20">Your 
-comments</textarea>
-			</p>
-			<br  class="space" />
-			
-			<p>
-					<select name= “cars”> 
-					<option>Ford</option>
-					<option>Chevy</option>
-					<option>Dodge</option>       
-					</select>
-			</p>
-			<br  class="space" />
-			
-			<p>
-           <label>Check boxes</label>
-             <input type = "checkbox"
-                 id = "chkEggs"
-                 value = "greenEggs" />
-             <label for = "chkEggs">Sign-up for our news letter!</label>
-          
-             <input type = "checkbox"
-                 id = "chkHam"
-                 value = "ham" />
-             <label for = "chkHam">Agreed to our terms.</label>
-         </p> 
-			
-			 <input type="submit" name="send" required placeholder="Enter a valid email address">           
-			
-			` <input type="reset" name="clear" required placeholder="Enter a valid email address">
-			
-			</fieldset>     
-    </form>
-		</body>
-	</html>
+	
 
 
+</body></html>
